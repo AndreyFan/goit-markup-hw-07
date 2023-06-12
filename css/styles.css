@@ -150,6 +150,12 @@ h3 {
   pointer-events: none;
 }
 
+.mobile-menu.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
 .mobile-menu-container {
   position: relative;
 }
@@ -176,12 +182,6 @@ h3 {
   background-color: #404bbf;
   border: none;
   fill: #ffffff;
-}
-
-.mobile-menu.is-open {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
 }
 
 .modal-close-icon {
@@ -664,6 +664,7 @@ text-transform: uppercase;
 */
 
 /* Page PORTFOLIO */
+/*
 .section-portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
